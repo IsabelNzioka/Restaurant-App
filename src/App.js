@@ -10,11 +10,6 @@ const App = () => {
     <div className="App">
       <Layout>
         <Home />
-        <Home />
-        <Home />
-        <Home />
-        <Home />
-        <Home />
       </Layout>
     </div>
   );

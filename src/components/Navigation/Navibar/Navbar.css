@@ -2,9 +2,9 @@
   height: 15vh;
   width: 100%;
 
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
   background-color: #201e1f;
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,9 @@
   font-size: 2.2rem;
   /* margin-top: 4rem; */
 
-  margin: 2rem 3rem;
+  /* margin: 2rem 3rem; */
+  /* marg */
+  margin-top: -1rem;
   color: white;
 
   /* background-color: yellow; */
@@ -33,4 +35,12 @@
   .DesktopOnly {
     display: none;
   }
+}
+
+.Icon {
+  fill: rgb(53, 53, 51);
+  margin-right: -3rem;
+  margin-top: -1rem;
+  /* margin-top: 2rem; */
+  font-size: 6rem;
 }

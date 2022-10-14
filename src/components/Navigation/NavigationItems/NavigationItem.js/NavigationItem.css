@@ -19,6 +19,12 @@
 
   border-bottom: 4px solid transparent;
   display: block;
+  transition: all 1s;
+}
+
+.NavigationItem a:hover {
+  transform: scale(1.1);
+  color: #8d8c8b;
 }
 
 .NavigationItem a :hover,

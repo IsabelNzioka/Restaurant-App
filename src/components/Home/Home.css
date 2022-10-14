@@ -1,3 +1,144 @@
 .Home {
   background-color: coral;
+  height: 300vh;
+  font-size: 1rem;
+}
+
+.Main {
+  background-image: url("../../assets/img/rest5.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 85vh;
+}
+
+.ReserveButton {
+  padding: 1rem 2rem;
+  margin-top: 76vh;
+  margin-left: 3rem;
+
+  /* margin-right: 3rem; */
+  font-size: 1.2rem;
+  border-top-right-radius: 1rem;
+  background-color: #201e1f;
+  color: white;
+
+  /* display: flex;
+  flex-direction: end;
+  position: fixed; */
+}
+/* ///////////////////////////////////////////////////////// */
+.HomeContent {
+  background-color: rgb(252, 243, 244);
+  height: 80vh;
+  /* padding: 6rem 5rem; */
+  padding: 4rem 7rem;
+}
+
+.HomeContent p {
+  line-height: 2rem;
+  /* margin-top: -20rem; */
+}
+
+.HomeContent h3 {
+  /* font-size: 9.5rem; */
+  color: #e3dde0;
+  background-color: yellow;
+  margin-top: -10rem;
+}
+
+/*
+  .Home h2 {
+    font-size: 1.7rem;
+    margin-top: -10rem;
+  } */
+
+/* .Icon {
+  color: chocolate;
+  font-size: 4rem;
+
+} */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.Menu {
+  height: 120vh;
+  background-color: #201e1f;
+  display: flex;
+  /* padding: 5rem 2rem; */
+  padding: 1.5rem;
+}
+
+.Menu img {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.One {
+  background-color: #e3dde0;
+  width: 30%;
+  height: 75vh;
+
+  margin-top: 4rem;
+}
+
+.Two {
+  /* background-color: aquamarine; */
+  width: 35%;
+  height: 90vh;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Two1 {
+  height: 15vh;
+  background-color: #e3dde0;
+}
+
+.Two2 {
+  height: 75vh;
+  width: 100%;
+  /* background-image: linear-gradient(rgba(#e3dde0, 0.5), rgba(#deb887, 0.5)),
+    url("../../assets/img/rest4.jpg"); */
+  background-image: linear-gradient(to right, orange 20%, red),
+    url("../../assets/img/rest4.jpg");
+
+  background-position: top;
+  background-size: cover;
+}
+
+.Three {
+  background-color: #deb887;
+  margin-top: 10rem;
+  width: 30%;
+  height: 80vh;
+}
+
+/* ..........................  TEXT */
+.Team {
+  font-size: 2.4rem;
+  color: #3d3b3c;
+  text-align: center;
+}
+
+.Iconn {
+  font-size: 6rem;
+  color: #e9e0e5;
+}
+
+.Iconnn {
+  color: #e9e0e5;
+  font-size: 9rem;
+  float: right;
+  /* margin-right: -3rem; */
+}
+
+.Welcome {
+  font-size: 2.4rem;
+  color: #3d3b3c;
+  margin-top: -5rem;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+.Restaurant {
+  height: 100vh;
+  background-color: #e3dde0;
 }

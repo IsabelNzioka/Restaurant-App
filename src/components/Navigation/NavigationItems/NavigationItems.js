@@ -12,7 +12,7 @@ const NavigationItems = () => {
           Menu
         </NavigationItem>
         <NavigationItem link="/">Specials</NavigationItem>
-
+        <NavigationItem link="/">Gallery</NavigationItem>
         <NavigationItem link="/">Book</NavigationItem>
         <NavigationItem link="/">Order</NavigationItem>
       </ul>
