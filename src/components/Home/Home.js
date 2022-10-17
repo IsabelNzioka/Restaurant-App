@@ -43,6 +43,8 @@ const Home = () => {
         {/* <h3>About Us</h3> */}
       </div>
 
+      <div className="Restaurant">hi</div>
+
       <div className="Menu">
         <div className="One">
           {/* <img src={background} alt="chef" width="100%" height="100%" /> */}
@@ -59,7 +61,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="Restaurant">hi</div>
+      {/* <div className="Restaurant">hi</div> */}
     </div>
   );
 };

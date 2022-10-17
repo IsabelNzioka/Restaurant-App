@@ -1,12 +1,18 @@
 .Home {
-  background-color: coral;
-  height: 300vh;
+  /* background-color: coral; */
+  /* height: 300vh; */
   font-size: 1rem;
 }
 
 .Main {
-  background-image: url("../../assets/img/rest5.jpg");
-  background-position: top;
+  /* background-image: url("../../assets/img/rest6.jpg"); */
+  /* background-image: url("../../assets/img/rest5.jpg"); */
+  /* background-image: url("../../assets/img/rest9.jpg"); */
+  background-image: url("../../assets/img/rest12.jpg");
+  /*  */
+  /* background-position: top; */
+  background-position: center;
+  /* background-position: bottom; */
   background-size: cover;
   height: 85vh;
 }
@@ -26,7 +32,8 @@
   flex-direction: end;
   position: fixed; */
 }
-/* ///////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////////////////////////// */
 .HomeContent {
   background-color: rgb(252, 243, 244);
   height: 80vh;
@@ -57,10 +64,20 @@
   font-size: 4rem;
 
 } */
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+.Restaurant {
+  height: 100vh;
+  background-color: #503341;
+  /* background-image: url("../../assets/img/rest7.jpg"); */
+  background-position: bottom;
+  background-size: cover;
+}
+
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 .Menu {
   height: 120vh;
-  background-color: #201e1f;
+  /* background-color: #201e1f; */
   display: flex;
   /* padding: 5rem 2rem; */
   padding: 1.5rem;
@@ -137,8 +154,4 @@
   margin-top: -5rem;
 }
 
-/* ///////////////////////////////////////////////////////////////// */
-.Restaurant {
-  height: 100vh;
-  background-color: #503341;
-}
+/* ///////////////////////////////////////////////////////////////////////////////////// */
