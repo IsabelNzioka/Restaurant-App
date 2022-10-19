@@ -43,25 +43,36 @@ const Home = () => {
         {/* <h3>About Us</h3> */}
       </div>
 
-      <div className="Restaurant">hi</div>
-
-      <div className="Menu">
-        <div className="One">
-          {/* <img src={background} alt="chef" width="100%" height="100%" /> */}
-          <Sliderr images={images} />
-        </div>
-        <div className="Two">
-          <div className="Two1">
-            <h2 className="Team">Our Team</h2>
+      <div className="SectionMain">
+        <div className="Restaurant">
+          <div className="One">
+            <div className="OneOne">
+              <h2 className="Teamm">Restaurant</h2>
+            </div>
+            <div className="OneTwo">hi</div>
           </div>
-          <div className="Two2">hi</div>
+
+          <div className="Two">two</div>
+          <div className="Three">three</div>
         </div>
-        <div className="Three">
-          <Sliderr images={images1} />
+
+        <div className="ChefSection">
+          <div className="ChefSpecial">
+            {/* <img src={background} alt="chef" width="100%" height="100%" /> */}
+            <Sliderr images={images} />
+          </div>
+          <div className="ChefNames">
+            <div className="NamesTitle">
+              <h2 className="Team">Our Team</h2>
+            </div>
+            <div className="ChefNamesList">hi</div>
+          </div>
+          <div className="ChefVIP">
+            <Sliderr images={images1} />
+          </div>
         </div>
       </div>
-
-      {/* <div className="Restaurant">hi</div> */}
+      <div className="Reviews">hi</div>
     </div>
   );
 };

@@ -65,68 +65,70 @@
 
 } */
 
-/* //////////////////////////////////////////////////////////////////////////////////// */
-.Restaurant {
-  height: 100vh;
-  background-color: #503341;
-  /* background-image: url("../../assets/img/rest7.jpg"); */
-  background-position: bottom;
-  background-size: cover;
-}
-
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
-.Menu {
+.ChefSection {
   height: 120vh;
-  /* background-color: #201e1f; */
+  /* background-color: #0f0a0c; */
+
   display: flex;
   /* padding: 5rem 2rem; */
   padding: 1.5rem;
 }
 
-.Menu img {
+.ChefSection img {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 
-.One {
+.ChefSpecial {
   background-color: #e3dde0;
   width: 30%;
   height: 75vh;
 
   margin-top: 4rem;
+  box-shadow: -1rem -1rem 3rem 2rem #080808;
+  /* box-shadow: 1rem 6rem 6rem #080808, 1rem 6rem 6rem #080808; */
 }
 
-.Two {
+.ChefNames {
   /* background-color: aquamarine; */
   width: 35%;
   height: 90vh;
   margin-top: 8rem;
   display: flex;
   flex-direction: column;
+  z-index: 200;
+
+  /* box-shadow: 1rem -1rem 2rem -1rem yellow; */
+  box-shadow: 0px 2rem 1rem #080808, 0px -1rem 1rem #080808;
 }
 
-.Two1 {
+.NamesTitle {
   height: 15vh;
   background-color: #e3dde0;
 }
 
-.Two2 {
+.ChefNamesList {
   height: 75vh;
   width: 100%;
+  background-color: #deb887;
   /* background-image: linear-gradient(rgba(#e3dde0, 0.5), rgba(#deb887, 0.5)),
     url("../../assets/img/rest4.jpg"); */
-  background-image: linear-gradient(to right, orange 20%, red),
-    url("../../assets/img/rest4.jpg");
+  /* background-image: linear-gradient(to right, orange 20%, red),
+    url("../../assets/img/rest4.jpg"); */
 
   background-position: top;
   background-size: cover;
 }
 
-.Three {
+.ChefVIP {
   background-color: #deb887;
   margin-top: 10rem;
   width: 30%;
   height: 80vh;
+
+  box-shadow: -2rem -2rem 3rem 4rem #080808;
+  /* box-shadow: 2rem 3rem 6rem #080808; */
 }
 
 /* ..........................  TEXT */
@@ -134,7 +136,7 @@
   font-size: 2.4rem;
   color: #3d3b3c;
   text-align: center;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .Iconn {
@@ -156,3 +158,75 @@
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////// */
+
+.SectionMain {
+  background-image: linear-gradient(
+      to right,
+      rgba(8, 8, 8, 0.918),
+      rgba(15, 10, 10, 0.99)
+    ),
+    url("../../assets/img/rest7.jpg");
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: rgb(8, 8, 8); */
+}
+/* /////////////////////////////////////////       RESTAURANT      /////////////////////////////////////////// */
+.Restaurant {
+  height: 130vh;
+  /* background-color: #0f0a0c; */
+  /* background-image: url("../../assets/img/rest7.jpg"); */
+  /* background-position: bottom; */
+  /* background-size: cover; */
+
+  display: flex;
+  padding: 2rem;
+}
+
+.One {
+  background-color: #fa1487;
+  width: 34%;
+
+  height: 85vh;
+  margin-top: 6rem;
+
+  /* box-shadow: 1rem 2rem 6rem rgb(182, 31, 5); */
+  /* box-shadow: 5rem 5rem 6rem #080808; */
+  box-shadow: -1rem -1rem 3rem 2rem #080808;
+}
+.OneOne {
+  height: 15vh;
+  /* background-color: #3d3b3c; */
+  background-color: #e3dde0;
+}
+.OneTwo {
+  height: 70vh;
+  background-color: #bd2525;
+}
+
+.Two {
+  background-color: #e9e0e5;
+  width: 32%;
+
+  height: 75vh;
+  margin-top: 4rem;
+
+  /* box-shadow: 1rem 2rem 6rem rgb(182, 31, 5); */
+  /* box-shadow: 0 1rem yellow; */
+  box-shadow: 0px 2rem 1rem #080808, 0px -1rem 1rem #080808;
+  /* box-shadow: 5px 0px yellow, 5px 0px red, 0px 0px, 30px 5px rgb(29, 93, 190); */
+  /* z-index: 200; */
+}
+.Three {
+  background-color: blueviolet;
+  width: 32%;
+
+  height: 90vh;
+  margin-top: 10rem;
+
+  box-shadow: 2rem 3rem 6rem #080808;
+}
+
+/* //////////////////////////////////////// REVIEWS///////////////////// */
+.Reviews {
+  height: 100vh;
+}
