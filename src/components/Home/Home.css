@@ -34,9 +34,11 @@
 }
 
 /* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
 .HomeContent {
   background-color: rgb(252, 243, 244);
-  height: 80vh;
+  height: 75vh;
   /* padding: 6rem 5rem; */
   padding: 4rem 7rem;
 }
@@ -65,9 +67,11 @@
 
 } */
 
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 .ChefSection {
-  height: 120vh;
+  height: 125vh;
   /* background-color: #0f0a0c; */
 
   display: flex;
@@ -111,18 +115,36 @@
 .ChefNamesList {
   height: 75vh;
   width: 100%;
-  background-color: #deb887;
+  background-color: #e3dde0;
+  /* background-color: #3d3b3c; */
+
+  /* padding: 1rem; */
   /* background-image: linear-gradient(rgba(#e3dde0, 0.5), rgba(#deb887, 0.5)),
     url("../../assets/img/rest4.jpg"); */
   /* background-image: linear-gradient(to right, orange 20%, red),
     url("../../assets/img/rest4.jpg"); */
 
-  background-position: top;
-  background-size: cover;
+  /* background-position: top;
+  background-size: cover; */
+}
+
+.ChefDesc {
+  line-height: 1.7;
+  padding: 1.2rem;
+}
+
+.ChefButton {
+  margin-left: 1.2rem;
+
+  padding: 0.8rem 2rem 0.4rem 2rem;
+  outline: none;
+  border: none;
+  border-bottom: 1.2px solid #080808;
+  margin-top: 4rem;
 }
 
 .ChefVIP {
-  background-color: #deb887;
+  background-color: #e3dde0;
   margin-top: 10rem;
   width: 30%;
   height: 80vh;
@@ -130,6 +152,10 @@
   box-shadow: -2rem -2rem 3rem 4rem #080808;
   /* box-shadow: 2rem 3rem 6rem #080808; */
 }
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
 
 /* ..........................  TEXT */
 .Team {
@@ -157,6 +183,8 @@
   margin-top: -5rem;
 }
 
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 
 .SectionMain {
@@ -168,6 +196,8 @@
     url("../../assets/img/rest7.jpg");
   background-position: bottom;
   background-size: cover;
+  background-attachment: fixed;
+
   /* background-color: rgb(8, 8, 8); */
 }
 /* /////////////////////////////////////////       RESTAURANT      /////////////////////////////////////////// */
@@ -183,32 +213,62 @@
 }
 
 .One {
-  background-color: #fa1487;
+  /* background-color: #fa1487; */
   width: 34%;
 
-  height: 85vh;
+  height: 82vh;
   margin-top: 6rem;
 
   /* box-shadow: 1rem 2rem 6rem rgb(182, 31, 5); */
   /* box-shadow: 5rem 5rem 6rem #080808; */
   box-shadow: -1rem -1rem 3rem 2rem #080808;
+
+  z-index: 200;
 }
 .OneOne {
-  height: 15vh;
+  height: 17vh;
   /* background-color: #3d3b3c; */
   background-color: #e3dde0;
 }
 .OneTwo {
-  height: 70vh;
-  background-color: #bd2525;
+  height: 65vh;
+  background-color: #e3dde0;
+  padding: 2rem 1.7rem;
+}
+.RestaurantName {
+  font-size: 2.4rem;
+  color: #3d3b3c;
+
+  padding: 1rem 4rem;
+  /* text-align: center; */
+}
+
+.RestaurantName span {
+  padding-left: 3rem;
+  color: #3d3b3c;
+  /* color: rgb(26, 24, 24); */
+}
+
+.RestaurantDesc {
+  line-height: 1.5;
+
+  /* padding-bottom: 2rem; */
+}
+
+.RestaurantButton {
+  padding: 0.8rem 2rem 0.4rem 2rem;
+  outline: none;
+  border: none;
+  border-bottom: 1.2px solid #080808;
+  margin-top: 4rem;
 }
 
 .Two {
   background-color: #e9e0e5;
   width: 32%;
 
-  height: 75vh;
-  margin-top: 4rem;
+  height: 80vh;
+  margin-top: 12rem;
 
   /* box-shadow: 1rem 2rem 6rem rgb(182, 31, 5); */
   /* box-shadow: 0 1rem yellow; */
@@ -226,7 +286,25 @@
   box-shadow: 2rem 3rem 6rem #080808;
 }
 
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////// REVIEWS///////////////////// */
 .Reviews {
-  height: 100vh;
+  height: 70vh;
+  padding: 4rem 6rem;
+}
+
+.Buttons {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.ButtonMenu,
+.ButtonReserve {
+  outline: none;
+  border: 1px solid #3d3b3c;
+  padding: 1rem 3.5rem;
+  margin-left: 2rem;
 }

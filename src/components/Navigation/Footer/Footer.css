@@ -73,30 +73,23 @@ span {
   .Footer {
     height: 80vh;
   }
+
   .FooterContent {
     flex-direction: column;
-
-    /* background-color: aliceblue; */
-    /* padding: 3rem 8rem; */
   }
 
   .Contact {
-    /* gap: 10rem; */
-    padding-left: 10rem;
-    /* background-color: #201e1f; */
-    width: 100%;
+    padding-left: 6rem;
+    width: 90%;
     align-items: center;
     padding-bottom: 3rem;
     gap: 15rem;
-    /* width: 100%;
-    
-    padding-bottom: 2rem; 
-    /* background-color: aliceblue; */
+    /* background-color: rgb(37, 84, 126); */
   }
-
   .General {
-    padding-left: 10rem;
-    width: 100%;
+    padding-left: 6rem;
+    /* background-color: yellow; */
+    width: 90%;
     gap: 20rem;
   }
 }
@@ -111,13 +104,6 @@ span {
   }
 }
 
-@media (max-width: 950px) {
-  .Contact,
-  .General {
-    padding-left: 8rem;
-  }
-}
-
 @media (max-width: 900px) {
   .Contact,
   .General {
@@ -125,28 +111,78 @@ span {
   }
 
   .Contact {
-    gap: 8rem;
+    gap: 7rem;
   }
 
   .General {
-    gap: 13rem;
+    gap: 12rem;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .Contact,
   .General {
-    padding-left: 2rem;
+    padding-left: 0.1rem;
   }
 
   .Contact {
-    gap: 6rem;
+    gap: 4rem;
   }
 
   .General {
-    gap: 11rem;
+    gap: 12rem;
   }
 }
+
+@media (max-width: 700px) {
+  .Footer {
+    height: 120vh;
+  }
+
+  .Contact {
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    width: 100%;
+
+    /* background-color: yellow; */
+  }
+  .ContactInfo {
+    padding-bottom: 1rem;
+  }
+
+  .General {
+    flex-direction: column;
+    gap: 0;
+
+    justify-content: center;
+    width: 100%;
+    /* background-color: blue; */
+  }
+
+  .GeneralInfo {
+    padding-bottom: 1rem;
+  }
+  .GeneralInfo,
+  .Subscribe {
+    margin: 0 auto;
+  }
+}
+
+/* .FooterContent {
+  flex-direction: column;
+}} */
+/* 
+
+
+
+
+
+
+
+
+
+ */
 
 .Socials {
   display: flex;
