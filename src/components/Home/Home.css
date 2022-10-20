@@ -43,6 +43,38 @@
   padding: 4rem 7rem;
 }
 
+@media (max-width: 880px) {
+  .HomeContent {
+    height: 85vh;
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .HomeContent {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .HomeContent {
+    height: 115vh;
+  }
+}
+@media (max-width: 420px) {
+  .HomeContent {
+    height: 120vh;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .HomeContent {
+    height: 130vh;
+    padding: 2rem;
+  }
+}
+
 .HomeContent p {
   line-height: 2rem;
   /* margin-top: -20rem; */
@@ -153,6 +185,122 @@
   /* box-shadow: 2rem 3rem 6rem #080808; */
 }
 
+@media (max-width: 1100px) {
+  .ChefNames {
+    height: 93vh;
+  }
+
+  .ChefNamesList {
+    height: 78vh;
+  }
+
+  .ChefVIP {
+    width: 32%;
+    height: 78vh;
+  }
+
+  .ChefButton {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ChefSection {
+    height: 135vh;
+  }
+
+  .ChefNames {
+    height: 99vh;
+  }
+
+  .ChefNamesList {
+    height: 84vh;
+  }
+  .ChefButton {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .ChefSection {
+    flex-direction: column;
+    height: 280vh;
+    /* background-color: yellow; */
+    padding: 2rem 5rem;
+  }
+  .ChefSpecial {
+    /* width: 90%; */
+    width: 100%;
+    height: 85vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ChefNames {
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+  }
+
+  .ChefVIP {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ChefSection {
+    padding: 2rem 4rem;
+  }
+  /* .ChefButton {
+    margin-top: 2rem;
+  } */
+}
+
+@media (max-width: 500px) {
+  .ChefSection {
+    padding: 1.6rem;
+  }
+
+  .ChefNames {
+    height: 85vh;
+  }
+  .ChefNamesList {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .ChefSection {
+    padding: 1.4rem;
+  }
+  .ChefDesc {
+    padding: 1rem;
+  }
+  .ChefButton {
+    margin-top: 0.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .ChefSection {
+    padding: 0.6rem;
+    height: 250vh;
+  }
+
+  .ChefSpecial {
+    height: 65vh;
+  }
+  .ChefVIP {
+    height: 65vh;
+  }
+}
+
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////// */
@@ -200,6 +348,9 @@
 
   /* background-color: rgb(8, 8, 8); */
 }
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////// */
 /* /////////////////////////////////////////       RESTAURANT      /////////////////////////////////////////// */
 .Restaurant {
   height: 130vh;
@@ -216,7 +367,7 @@
   /* background-color: #fa1487; */
   width: 34%;
 
-  height: 82vh;
+  height: 86vh;
   margin-top: 6rem;
 
   /* box-shadow: 1rem 2rem 6rem rgb(182, 31, 5); */
@@ -225,13 +376,14 @@
 
   z-index: 200;
 }
+
 .OneOne {
   height: 17vh;
   /* background-color: #3d3b3c; */
   background-color: #e3dde0;
 }
 .OneTwo {
-  height: 65vh;
+  height: 69vh;
   background-color: #e3dde0;
   padding: 2rem 1.7rem;
 }
@@ -263,6 +415,30 @@
   margin-top: 4rem;
 }
 
+@media (max-width: 1100px) {
+  .One {
+    width: 35%;
+    height: 86vh;
+  }
+
+  .OneTwo {
+    height: 73vh;
+  }
+  .RestaurantName span {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .RestaurantName {
+    font-size: 2.2rem;
+    padding: 1rem 2rem;
+  }
+  .RestaurantButton {
+    margin-top: 3rem;
+  }
+}
+
 .Two {
   background-color: #e9e0e5;
   width: 32%;
@@ -276,6 +452,7 @@
   /* box-shadow: 5px 0px yellow, 5px 0px red, 0px 0px, 30px 5px rgb(29, 93, 190); */
   /* z-index: 200; */
 }
+
 .Three {
   background-color: blueviolet;
   width: 32%;
@@ -286,12 +463,131 @@
   box-shadow: 2rem 3rem 6rem #080808;
 }
 
+@media (max-width: 880px) {
+  .Restaurant {
+    flex-direction: column;
+    height: 280vh;
+    padding: 2rem 5rem;
+    /* background: yellow; */
+  }
+  .One {
+    width: 100%;
+    height: 70vh;
+  }
+  .OneTwo {
+    height: 53vh;
+  }
+
+  .Two {
+    width: 100%;
+    height: 80vh;
+    margin-top: 7rem;
+  }
+
+  .Three {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Restaurant {
+    height: 285vh;
+    padding: 2rem 4rem;
+    /* background: yellow; */
+  }
+
+  .One {
+    height: 75vh;
+  }
+  .OneTwo {
+    height: 58vh;
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .Restaurant {
+    height: 270vh;
+    /* background-color: yellow; */
+    padding: 1.6rem;
+  }
+  .Two {
+    height: 70vh;
+    /* margin-top: 7rem; */
+  }
+
+  .Three {
+    height: 70vh;
+    /* margin-top: 2rem; */
+  }
+}
+
+@media (max-width: 420px) {
+  .One {
+    height: 78vh;
+  }
+  .OneTwo {
+    height: 61vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .Restaurant {
+    padding: 1.4rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .Restaurant {
+    height: 250vh;
+    padding: 0.6rem;
+  }
+
+  .One {
+    height: 82vh;
+  }
+  .OneTwo {
+    height: 65vh;
+  }
+  .Two {
+    height: 60vh;
+    /* margin-top: 7rem; */
+  }
+
+  .Three {
+    height: 60vh;
+    /* margin-top: 2rem; */
+  }
+}
+
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////// REVIEWS///////////////////// */
 .Reviews {
   height: 70vh;
   padding: 4rem 6rem;
+}
+
+@media (max-width: 880px) {
+  .Reviews {
+    padding: 4rem 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Reviews {
+    padding: 3rem 4rem;
+    height: 68vh;
+  }
+}
+
+@media (max-width: 550px) {
+  .Reviews {
+    padding: 3rem 2rem;
+    /* height: 70vh; */
+  }
 }
 
 .Buttons {
@@ -307,4 +603,37 @@
   border: 1px solid #3d3b3c;
   padding: 1rem 3.5rem;
   margin-left: 2rem;
+}
+
+@media (max-width: 500px) {
+  .Reviews {
+    height: 78vh;
+  }
+  .ButtonMenu,
+  .ButtonReserve {
+    padding: 1rem 2rem;
+    /* margin-left: 2rem; */
+  }
+}
+
+@media (max-width: 360px) {
+  .Reviews {
+    height: 80vh;
+    padding: 3rem 1.5rem;
+  }
+  .ButtonMenu,
+  .ButtonReserve {
+    margin-left: 1.5rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .Reviews {
+    height: 82vh;
+  }
+  .ButtonMenu,
+  .ButtonReserve {
+    margin-left: 1rem;
+    padding: 0.8rem 2rem;
+  }
 }

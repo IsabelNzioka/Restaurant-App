@@ -59,12 +59,10 @@ const Home = () => {
               <p className="RestaurantDesc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum varius nisl nec purus luctus dictum. Cras dapibus
-                metus eu lacinia commodo. Aenean vehicula erat turpis.
-                Suspendisse sed imperdiet leo. Vestibulum consequat blandit
-                euismod. Aenean at lacinia libero, in molestie mi. Maecenas ac
-                turpis. Curabitur a tincidunt tortor. Cras at dui pellentesque,
-                varius sapien id, porta mauris. Sed tempus dui ut justo aliquam,
-                vel
+                metus eu lacinia commodo. Vestibulum consequat blandit euismod.
+                Aenean at lacinia libero, in molestie mi. Maecenas ac turpis.
+                Curabitur a tincidunt tortor. Cras at dui pellentesque, varius
+                sapien id, porta mauris. Sed tempus dui ut justo aliquam, vel
               </p>
 
               <button className="RestaurantButton">
@@ -105,9 +103,8 @@ const Home = () => {
               <p className="ChefDesc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum varius nisl nec purus luctus dictum. Cras dapibus
-                metus eu lacinia commodo. Aenean vehicula erat turpis.
-                Suspendisse sed imperdiet leo. Vestibulum consequat blandit
-                euismod. Aenean at lacinia libero, in molestie mi. Maecenas ac
+                metus eu lacinia commodo. Aenean vehicula erat turpis. Suspendis
+                at lacinia libero,at lacinia libero, in molestie mi. Maecenas ac
                 turpis. Curabitur a tincidunt tortor. Cras at dui pellentesque,
                 varius sapien id, porta mauris. Sed tempus dui ut justo aliquam,
                 vel

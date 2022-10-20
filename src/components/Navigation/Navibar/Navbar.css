@@ -44,3 +44,13 @@
   /* margin-top: 2rem; */
   font-size: 6rem;
 }
+@media (max-width: 800px) {
+  .Icon {
+    font-size: 4rem;
+  }
+
+  .Logo {
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+}
