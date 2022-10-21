@@ -9,11 +9,11 @@ const NavigationItems = () => {
     <div>
       <ul className="NavigationItems">
         <NavigationItem link="/" active>
-          Menu
+          Home
         </NavigationItem>
         <NavigationItem link="/">Specials</NavigationItem>
         <NavigationItem link="/gallery">Gallery</NavigationItem>
-        <NavigationItem link="/">Book</NavigationItem>
+        <NavigationItem link="/menu">Menu</NavigationItem>
         <NavigationItem link="/">Order</NavigationItem>
       </ul>
     </div>

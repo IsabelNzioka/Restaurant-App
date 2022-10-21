@@ -1,0 +1,26 @@
+.Menu {
+  height: 200vh;
+  background-color: aliceblue;
+}
+
+.Main {
+  height: 70vh;
+  width: 100%;
+  /* background-image: url("../../assets/img/rest9.jpg"); */
+  background-image: url("../../assets/img/food/food3.jpg");
+
+  background-position: center;
+  background-size: cover;
+}
+
+.Paragraph {
+  padding: 4rem 8rem;
+}
+
+.MenuTitle {
+  font-size: 4rem;
+  color: #3d3b3c;
+}
+.Menus {
+  padding: 1rem 6rem;
+}
