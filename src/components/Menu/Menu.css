@@ -1,6 +1,7 @@
 .Menu {
-  height: 200vh;
+  height: 300vh;
   background-color: aliceblue;
+  font-size: 0.8rem;
 }
 
 .Main {
@@ -23,4 +24,11 @@
 }
 .Menus {
   padding: 1rem 6rem;
+}
+.OurMenu {
+  padding: 2rem 8rem;
+}
+.Lunch {
+  display: flex;
+  gap: 3rem;
 }

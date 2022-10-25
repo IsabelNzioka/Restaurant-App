@@ -1,7 +1,9 @@
 import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import "./Menu.css";
 
 import food from "../../assets/img/food/food1.jpg";
+import Lunch from "./Menus/Lunch";
 
 const Menu = () => {
   return (
@@ -22,12 +24,19 @@ const Menu = () => {
         </p>
       </div>
 
+      <Routes>
+        <Route path="/menu/lunch" element={<Lunch />} />
+      </Routes>
+
       <div className="Menus">
         <button className="ButtonMenu">All Menu</button>
         <button className="ButtonMenu">All Menu</button>
         <button className="ButtonMenu">All Menu</button>
         <button className="ButtonMenu">All Menu</button>
         <button className="ButtonMenu">All Menu</button>
+      </div>
+      <div className="OurMenu">
+        <Lunch />
       </div>
     </div>
   );
