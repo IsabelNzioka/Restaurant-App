@@ -19,8 +19,10 @@ import { FaYelp } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
-  const images = [chef1, chef2, chef3];
-  const images1 = [chef4, chef5, chef6];
+  // const images = [chef1, chef2, chef3];
+  // const images1 = [chef4, chef5, chef6];
+  const images = [chef1];
+  const images1 = [chef4];
 
   return (
     <div className="Home">
