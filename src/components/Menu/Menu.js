@@ -8,7 +8,7 @@ import Lunch from "./Menus/Lunch";
 const Menu = () => {
   return (
     <div className="Menu">
-      <div className="Main">
+      <div className="MenuMain">
         {/* <img src={food} alt="MenuImage" width="100%" height="100%" /> */}
       </div>
 
