@@ -4,6 +4,8 @@ import "./Menu.css";
 
 import food from "../../assets/img/food/food1.jpg";
 import Lunch from "./Menus/Lunch";
+import Diner from "./Menus/Dinner";
+import Breakfast from "./Menus/Breakfast";
 
 const Menu = () => {
   return (
@@ -26,6 +28,8 @@ const Menu = () => {
 
       <Routes>
         <Route path="/menu/lunch" element={<Lunch />} />
+        <Route path="/menu/diner" element={<Diner />} />
+        <Route path="/menu/breakfast" element={<Breakfast />} />
       </Routes>
 
       <div className="Menus">

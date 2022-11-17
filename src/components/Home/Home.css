@@ -8,6 +8,7 @@
   /* background-image: url("../../assets/img/rest6.jpg"); */
   /* background-image: url("../../assets/img/rest5.jpg"); */
   background-image: url("../../assets/img/rest9.jpg");
+  /* background-color: rgb(48, 45, 45); */
   /* background-image: url("../../assets/img/rest12.jpg"); */
   /*  */
   /* background-position: top; */
@@ -337,11 +338,11 @@
 
 .SectionMain {
   background-image: linear-gradient(
-      to right,
-      rgba(8, 8, 8, 0.918),
-      rgba(15, 10, 10, 0.99)
-    ),
-    url("../../assets/img/rest7.jpg");
+    to right,
+    rgba(8, 8, 8, 0.918),
+    rgba(15, 10, 10, 0.99)
+  );
+  /* url("../../assets/img/rest7.jpg"); */
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed;

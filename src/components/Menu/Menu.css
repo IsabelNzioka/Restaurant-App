@@ -28,7 +28,18 @@
 .OurMenu {
   padding: 2rem 8rem;
 }
-.Lunch {
+.Lunch,
+.Breakfast {
   display: flex;
   gap: 3rem;
+}
+.Lunch {
+  background-color: crimson;
+}
+.Breakfast {
+  background-color: chocolate;
+}
+
+.Diner {
+  background-color: #3d3b3c;
 }
