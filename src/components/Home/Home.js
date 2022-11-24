@@ -4,14 +4,14 @@ import "./Home.css";
 
 import Sliderr from "./Slider/Slider";
 
-import chef1 from "../../assets/img/chef/chef2.jpg";
 import chef2 from "../../assets/img/chef/chef1.jpg";
 import chef3 from "../../assets/img/chef/chef4.jpg";
 
-import chef4 from "../../assets/img/chef/chef5.jpg";
 import chef5 from "../../assets/img/chef/chef6.jpg";
 import chef6 from "../../assets/img/chef/chef7.jpg";
 
+import chef1 from "../../assets/img/chef/chef2.jpg";
+import chef4 from "../../assets/img/chef/chef5.jpg";
 import restaurantPicture1 from "../../assets/img/rest17.jpg";
 import restaurantPicture2 from "../../assets/img/rest16.jpg";
 
