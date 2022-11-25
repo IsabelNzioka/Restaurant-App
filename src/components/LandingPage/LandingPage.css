@@ -1,5 +1,5 @@
 .LandingPage {
-  height: 400vh;
+  height: 477vh;
   background-color: coral;
 }
 .SectionOne {
@@ -17,10 +17,10 @@
 }
 
 .RestaurantSection {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   justify-content: space-between;
-  background-color: darkgoldenrod;
+  background-color: rgb(43, 40, 32);
 }
 .On {
   background-color: aquamarine;
@@ -29,19 +29,41 @@
   margin: 3rem;
 }
 
+@media (max-width: 900px) {
+  .LandingPage {
+    height: 800vh;
+  }
+
+  .RestaurantSection {
+    height: 275vh;
+  }
+}
+
 @media (max-width: 600px) {
   .LandingPage {
-    height: 600vh;
+    height: 786vh;
     /* padding: 4rem; */
   }
 
   .RestaurantSection {
-    height: 160vh;
+    height: 290vh;
     flex-direction: column;
+    background-color: yellow;
   }
 
   .On {
     width: 80%;
     height: 40vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .LandingPage {
+    height: 761vh;
+    /* padding: 4rem; */
+  }
+
+  .RestaurantSection {
+    height: 272vh;
   }
 }
