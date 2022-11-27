@@ -38,56 +38,58 @@
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 .HomeContent {
+  background-color: #e3dde0;
+  clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
   /* background-color: rgb(252, 243, 244); */
-  background-color: rgb(43, 40, 32);
-  color: antiquewhite;
-  height: 75vh;
-  /* padding: 6rem 5rem; */
-  padding: 4rem 7rem;
+  /* background-color: #080808; */
+  color: rgb(20, 13, 3);
+  height: 65vh;
+  /* margin: 2rem; */
+  padding: 1rem 3rem;
+  /* padding: 10rem 7rem; */
+  /* padding: 3rem; */
+  font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .HomeContent {
+    clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
+  }
 }
 
 @media (max-width: 880px) {
   .HomeContent {
-    height: 85vh;
-    padding: 4rem;
+    height: 65vh;
+    /* padding: 4rem; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%); */
   }
 }
 
 @media (max-width: 700px) {
   .HomeContent {
-    height: 100vh;
+    /* height: 100vh; */
   }
 }
 
 @media (max-width: 500px) {
   .HomeContent {
-    height: 115vh;
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 100%);
+    height: 75vh;
   }
 }
 @media (max-width: 420px) {
   .HomeContent {
-    height: 120vh;
-    padding: 2rem;
+    /* height: 120vh; */
+    /* padding: 2rem; */
   }
 }
 
 @media (max-width: 360px) {
   .HomeContent {
-    height: 130vh;
-    padding: 2rem;
+    /* height: 130vh; */
+    /* padding: 2rem; */
   }
-}
-
-.HomeContent p {
-  line-height: 2rem;
-  /* margin-top: -20rem; */
-}
-
-.HomeContent h3 {
-  /* font-size: 9.5rem; */
-  color: #e3dde0;
-  background-color: yellow;
-  margin-top: -10rem;
 }
 
 /*
@@ -107,11 +109,15 @@
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 .ChefSection {
   height: 125vh;
+  margin-bottom: -20vh;
   /* background-color: #0f0a0c; */
+  background-color: #080808;
+  /* background-color: #b44f81; */
+  /* clip-path: polygon(0 0, 100% 0, 100% 130vh, 0 100%); */
 
   display: flex;
   /* padding: 5rem 2rem; */
-  padding: 1.5rem;
+  padding: 6rem 3rem;
 }
 
 .ChefSection img {
@@ -209,7 +215,7 @@
 
 @media (max-width: 1000px) {
   .ChefSection {
-    height: 135vh;
+    height: 125vh;
   }
 
   .ChefNames {
@@ -227,9 +233,11 @@
 @media (max-width: 880px) {
   .ChefSection {
     flex-direction: column;
-    height: 280vh;
+    height: 170vh;
     /* background-color: yellow; */
-    padding: 2rem 5rem;
+    /* padding: 2rem 5rem; */
+    /* padding: 2rem 3rem; */
+    padding: 2rem 3rem;
   }
   .ChefSpecial {
     /* width: 90%; */
@@ -292,15 +300,16 @@
 
 @media (max-width: 360px) {
   .ChefSection {
-    padding: 0.6rem;
-    height: 250vh;
+    /* background-color: yellow; */
+    /* padding: 0.6rem; */
+    height: 160vh;
   }
 
   .ChefSpecial {
-    height: 65vh;
+    /* height: 65vh; */
   }
   .ChefVIP {
-    height: 65vh;
+    /* height: 65vh; */
   }
 }
 
@@ -318,20 +327,17 @@
 
 .Iconn {
   font-size: 6rem;
-  color: #e9e0e5;
+  /* color: #e9e0e5; */
+  color: #3d3b3c;
 }
 
 .Iconnn {
-  color: #e9e0e5;
+  /* color: #e9e0e5; */
+  color: #3d3b3c;
+
   font-size: 9rem;
   float: right;
   /* margin-right: -3rem; */
-}
-
-.Welcome {
-  font-size: 2.4rem;
-  color: #3d3b3c;
-  margin-top: -5rem;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////// */
@@ -357,13 +363,10 @@
 /* /////////////////////////////////////////       RESTAURANT      /////////////////////////////////////////// */
 .Restaurant {
   height: 130vh;
-  /* background-color: #0f0a0c; */
-  /* background-image: url("../../assets/img/rest7.jpg"); */
-  /* background-position: bottom; */
-  /* background-size: cover; */
-
+  /* background-color: #b44f81; */
   display: flex;
   padding: 2rem;
+  /* margin-top: -12rem; */
 }
 
 .One {
@@ -371,11 +374,10 @@
   width: 34%;
 
   height: 86vh;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
+  /* margin-top: -4rem; */
 
-  /* box-shadow: 1rem 2rem 6rem rgb(182, 31, 5); */
-  /* box-shadow: 5rem 5rem 6rem #080808; */
-  box-shadow: -1rem -1rem 3rem 2rem #080808;
+  /* box-shadow: -1rem -1rem 3rem 2rem #080808; */
 
   z-index: 200;
 }
@@ -443,70 +445,75 @@
 }
 
 .Two {
-  background-color: #e9e0e5;
+  /* background-color: #e9e0e5; */
   width: 32%;
 
   height: 80vh;
-  margin-top: 12rem;
+  margin-top: 5rem;
+  /* box-shadow: 0px 2rem 1rem #080808, 0px -1rem 1rem #080808; */
+  /* margin-top: 12rem; */
+  /* margin-top: -2rem; */
 
   /* box-shadow: 1rem 2rem 6rem rgb(182, 31, 5); */
   /* box-shadow: 0 1rem yellow; */
-  box-shadow: 0px 2rem 1rem #080808, 0px -1rem 1rem #080808;
+
   /* box-shadow: 5px 0px yellow, 5px 0px red, 0px 0px, 30px 5px rgb(29, 93, 190); */
   /* z-index: 200; */
 }
 
 .Three {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   width: 32%;
 
   height: 90vh;
   margin-top: 10rem;
+  /* margin-top: 2rem; */
 
-  box-shadow: 2rem 3rem 6rem #080808;
+  /* box-shadow: 2rem 3rem 6rem #080808; */
 }
 
 @media (max-width: 880px) {
   .Restaurant {
     flex-direction: column;
-    height: 280vh;
-    padding: 2rem 5rem;
+    /* height: 280vh; */
+    padding: 2rem 3rem;
     /* background: yellow; */
   }
   .One {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
+    /* background-color: aqua; */
   }
   .OneTwo {
-    height: 53vh;
+    height: 30vh;
   }
 
   .Two {
     width: 100%;
-    height: 80vh;
-    margin-top: 7rem;
+    height: 50vh;
+    margin-top: 3rem;
   }
 
   .Three {
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     margin-top: 2rem;
   }
 }
 
 @media (max-width: 600px) {
   .Restaurant {
-    height: 285vh;
-    padding: 2rem 4rem;
+    /* height: 285vh; */
+    /* padding: 2rem 4rem; */
     /* background: yellow; */
   }
 
   .One {
-    height: 75vh;
+    /* height: 75vh; */
   }
   .OneTwo {
-    height: 58vh;
-    padding: 2rem 1.5rem;
+    /* height: 58vh; */
+    /* padding: 2rem 1.5rem; */
   }
 }
 
@@ -517,50 +524,53 @@
     padding: 1.6rem;
   }
   .Two {
-    height: 70vh;
+    height: 50vh;
     /* margin-top: 7rem; */
   }
 
   .Three {
-    height: 70vh;
+    height: 50vh;
     /* margin-top: 2rem; */
   }
 }
 
 @media (max-width: 420px) {
   .One {
-    height: 78vh;
+    /* height: 78vh; */
   }
   .OneTwo {
-    height: 61vh;
+    /* height: 61vh; */
   }
 }
 
 @media (max-width: 400px) {
   .Restaurant {
-    padding: 1.4rem;
+    /* padding: 1.4rem; */
   }
 }
 
 @media (max-width: 360px) {
   .Restaurant {
-    height: 250vh;
-    padding: 0.6rem;
+    /* height: 250vh; */
+    /* padding: 0.6rem; */
   }
 
   .One {
-    height: 82vh;
+    height: 69vh;
+  }
+  .OneOne {
+    /* height: 10vh; */
   }
   .OneTwo {
-    height: 65vh;
+    height: 40vh;
   }
   .Two {
-    height: 60vh;
+    /* height: 60vh; */
     /* margin-top: 7rem; */
   }
 
   .Three {
-    height: 60vh;
+    /* height: 60vh; */
     /* margin-top: 2rem; */
   }
 }

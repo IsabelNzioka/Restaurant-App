@@ -1,54 +1,76 @@
 .LandingPage {
-  height: 477vh;
-  background-color: coral;
+  height: 565vh;
+  /* background-color: coral; */
 }
 .SectionOne {
-  height: 85vh;
+  height: 100vh;
   background-color: aliceblue;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to right,
       rgba(8, 8, 8, 0.218),
       rgba(15, 10, 10, 0.99)
     ),
-    url("../../assets/img/rest1.jpg");
+    url("../../assets/img/rest1.jpg"); */
+  background-image: url("../../assets/img/rest13.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .RestaurantSection {
-  height: 150vh;
+  margin-top: -9rem;
+  padding-top: 9rem;
+  height: 140vh;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(43, 40, 32);
+  /* background-color: rgb(19, 18, 18); */
+  /* background-color: chartreuse; */
+
+  background-color: #080808;
 }
 .On {
   background-color: aquamarine;
   width: 28%;
   /* padding: 2rem; */
-  margin: 3rem;
+  /* margin: 3rem; */
+}
+
+@media (max-width: 1000px) {
+  .LandingPage {
+    height: 570vh;
+  }
 }
 
 @media (max-width: 900px) {
   .LandingPage {
-    height: 800vh;
+    height: 568vh;
   }
 
   .RestaurantSection {
-    height: 275vh;
+    height: 142vh;
+    /* background-color: aqua; */
+  }
+}
+@media (max-width: 880px) {
+  .LandingPage {
+    height: 648vh;
+  }
+  .RestaurantSection {
+    height: 190vh;
+    /* background-color: yellow; */
   }
 }
 
 @media (max-width: 600px) {
   .LandingPage {
-    height: 786vh;
+    height: 648vh;
     /* padding: 4rem; */
   }
 
   .RestaurantSection {
-    height: 290vh;
-    flex-direction: column;
-    background-color: yellow;
+    height: 190vh;
+    /* flex-direction: column; */
+    /* background-color: yellow; */
   }
 
   .On {
@@ -59,11 +81,144 @@
 
 @media (max-width: 500px) {
   .LandingPage {
-    height: 761vh;
+    height: 652vh;
     /* padding: 4rem; */
   }
 
   .RestaurantSection {
-    height: 272vh;
+    height: 186vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .LandingPage {
+    height: 641vh;
+    /* padding: 4rem; */
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*                     MENU                         */
+.MenuSectionPage {
+  height: 60vh;
+  display: flex;
+  background-color: #080808;
+  /* background-color: antiquewhite; */
+  padding-left: 3rem;
+}
+
+.MenuPageImage {
+  /* background-color: rgb(211, 47, 47); */
+  width: 60%;
+}
+.MenuPageContent {
+  background-color: antiquewhite;
+  flex: 1;
+}
+.MenuPageContent p {
+  padding: 1rem 3rem;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*  /////////////////////////     SectionLast        ///////////////////// */
+.SectionLast {
+  clip-path: polygon(0 20vh, 100% 0, 100% 70vh, 0 100%);
+  background-color: #e3dde0;
+
+  height: 70vh;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*  /////////////////////////    ChefSection       ///////////////////// */
+.RestOne {
+  width: 34%;
+  /* background-color: chartreuse; */
+  height: 76vh;
+  margin-top: 9rem;
+}
+
+.RestTwo {
+  flex: 1;
+  display: flex;
+}
+.RestTwo1 {
+  /* background-color: darkgoldenrod; */
+  width: 47%;
+  height: 79vh;
+  margin-top: 3rem;
+  /* margin-top: -5rem; */
+}
+.RestTwo2 {
+  /* background-color: cornflowerblue; */
+  flex: 1;
+  height: 90vh;
+  /* margin-top: 6rem; */
+}
+
+@media (max-width: 880px) {
+  .RestOne {
+    width: 100%;
+    height: 50vh;
+    margin-top: 1rem;
+  }
+  .RestTwo1 {
+    height: 60vh;
+  }
+
+  .RestTwo2 {
+    margin-top: 3rem;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .RestTwo1 {
+    height: 55vh;
+  }
+
+  .RestTwo2 {
+    margin-top: 4rem;
+    height: 50vh;
+  }
+}
+
+.Welcome {
+  font-size: 2.4rem;
+  color: #b44f81;
+  /* background: #6e686b; */
+  text-align: center;
+
+  padding-top: 2rem;
+}
+.WelcomeContent {
+  padding: 1rem 9rem;
+  line-height: 2;
+}
+
+@media (max-width: 1000px) {
+  .SectionLast {
+    clip-path: polygon(0 15vh, 100% 0, 100% 70vh, 0 100%);
+    /* height: 70vh; */
+    background-color: #b44f81;
+  }
+  .WelcomeContent {
+    padding: 1rem 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .SectionLast {
+    clip-path: polygon(0 10vh, 100% 0, 100% 70vh, 0 100%);
+    /* height: 70vh; */
+    /* background-color: #b44f81; */
+  }
+  .WelcomeContent {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .WelcomeContent {
+    padding: 1rem;
   }
 }
