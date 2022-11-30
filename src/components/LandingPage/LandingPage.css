@@ -349,6 +349,10 @@
 }
 
 @media (max-width: 450px) {
+  .Reservation {
+    /* padding: 10rem 1rem; */
+    padding-top: 4rem;
+  }
   .SectionLast {
     clip-path: polygon(0 13vh, 100% 0, 100% 90vh, 0 100%);
     height: 90vh;
