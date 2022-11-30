@@ -110,12 +110,24 @@ const LandingPage = () => {
 
       <div className="ChefSection">
         <div className="RestOne">
-          <img
+          {/* <img
             src={restaurantPicture1}
             alt="restaurantPicture"
             width="100%"
             height="100%"
-          />
+          /> */}
+          <h2 className="Team">Team</h2>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            varius nisl nec purus luctus dictum. Cras dapibus metus eu lacinia
+            commodo. Vestibulum consequat blandit euismod. Aenean at lacinia
+            libero, in molestie mi. Maecenas ac turpis
+          </p>
+
+          <button className="RestaurantButton">
+            More <FaArrowRight />{" "}
+          </button>
         </div>
         <div className="RestTwo">
           <div className="RestTwo1">
@@ -138,7 +150,24 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="SectionLast">One</div>
+      <div className="SectionLast">
+        <div className="Reservation">
+          <h2 className="Team">Our Food Is Delicious</h2>
+          <p className="WelcomeContent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            varius nisl nec purus luctus dictum. Cras dapibus metus eu lacinia
+            commodo. Aenean vehicula erat turpis. Suspendisse sed imperdiet leo.
+            Vestibulum consequat blandit euismod. Aenean at lacinia libero, in
+            molestie mi.Aenean vehicula erat turpis. Suspendisse sed imperdiet
+            leo. Vestibulum consequat blandit euismod. Aenean at lacinia libero,
+            in molestie mi.
+          </p>
+          <div className="ReserveButtons">
+            <button className="ButtonMenu">Menu</button>
+            <button className="ButtonReserve">Reservation</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

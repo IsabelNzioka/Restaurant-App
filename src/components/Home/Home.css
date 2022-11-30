@@ -45,7 +45,8 @@
   color: rgb(20, 13, 3);
   height: 65vh;
   /* margin: 2rem; */
-  padding: 1rem 3rem;
+  /* padding: 1rem 3rem; */
+  padding-top: 3rem;
   /* padding: 10rem 7rem; */
   /* padding: 3rem; */
   font-size: 1rem;
@@ -233,40 +234,17 @@
 @media (max-width: 880px) {
   .ChefSection {
     flex-direction: column;
-    height: 170vh;
+    height: 162vh;
     /* background-color: yellow; */
     /* padding: 2rem 5rem; */
     /* padding: 2rem 3rem; */
     padding: 2rem 3rem;
   }
-  .ChefSpecial {
-    /* width: 90%; */
-    width: 100%;
-    height: 85vh;
-    margin: 0;
-    padding: 0;
-  }
-
-  .ChefNames {
-    width: 100%;
-    height: 80vh;
-    margin: 0;
-    padding: 0;
-    margin-top: 2rem;
-  }
-
-  .ChefVIP {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 85vh;
-    margin-top: 2rem;
-  }
 }
 
 @media (max-width: 600px) {
   .ChefSection {
-    padding: 2rem 4rem;
+    padding: 2rem;
   }
   /* .ChefButton {
     margin-top: 2rem;
@@ -275,14 +253,8 @@
 
 @media (max-width: 500px) {
   .ChefSection {
-    padding: 1.6rem;
-  }
-
-  .ChefNames {
-    height: 85vh;
-  }
-  .ChefNamesList {
-    height: 70vh;
+    padding: 1.3rem;
+    height: 155vh;
   }
 }
 
@@ -481,11 +453,11 @@
   }
   .One {
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     /* background-color: aqua; */
   }
   .OneTwo {
-    height: 30vh;
+    height: 35vh;
   }
 
   .Two {
@@ -501,7 +473,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .Restaurant {
     /* height: 285vh; */
     /* padding: 2rem 4rem; */
@@ -509,27 +481,76 @@
   }
 
   .One {
-    /* height: 75vh; */
+    width: 100%;
+    height: 69vh;
+    /* background-color: aqua; */
   }
   .OneTwo {
-    /* height: 58vh; */
-    /* padding: 2rem 1.5rem; */
+    height: 39vh;
+  }
+
+  .Two {
+    /* width: 100%; */
+    height: 45vh;
+    /* margin-top: 3rem; */
+  }
+
+  .Three {
+    /* width: 100%; */
+    height: 45vh;
+    /* margin-top: 2rem; */
+  }
+}
+
+@media (max-width: 600px) {
+  .Restaurant {
+    /* height: 280vh; */
+    padding: 2rem 2rem;
+    /* background: yellow; */
+  }
+
+  .One {
+    width: 100%;
+    height: 73vh;
+    /* background-color: aqua; */
+  }
+  .OneTwo {
+    height: 43vh;
+  }
+
+  .Two {
+    /* width: 100%; */
+    height: 40vh;
+    /* margin-top: 3rem; */
+  }
+
+  .Three {
+    /* width: 100%; */
+    height: 40vh;
+    /* margin-top: 2rem; */
   }
 }
 
 @media (max-width: 500px) {
   .Restaurant {
-    height: 270vh;
-    /* background-color: yellow; */
-    padding: 1.6rem;
+    padding: 2rem 1.3rem;
   }
+  .One {
+    height: 80vh;
+    /* background-color: aqua; */
+  }
+  .OneTwo {
+    height: 53vh;
+    padding: 1rem 0.7rem;
+  }
+
   .Two {
-    height: 50vh;
+    /* height: 50vh; */
     /* margin-top: 7rem; */
   }
 
   .Three {
-    height: 50vh;
+    /* height: 50vh; */
     /* margin-top: 2rem; */
   }
 }

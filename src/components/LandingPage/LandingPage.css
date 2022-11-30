@@ -1,6 +1,7 @@
 .LandingPage {
-  height: 565vh;
+  height: 590vh;
   /* background-color: coral; */
+  font-size: 1rem;
 }
 .SectionOne {
   height: 100vh;
@@ -37,13 +38,13 @@
 
 @media (max-width: 1000px) {
   .LandingPage {
-    height: 570vh;
+    height: 600vh;
   }
 }
 
 @media (max-width: 900px) {
   .LandingPage {
-    height: 568vh;
+    height: 602vh;
   }
 
   .RestaurantSection {
@@ -53,22 +54,36 @@
 }
 @media (max-width: 880px) {
   .LandingPage {
-    height: 648vh;
+    height: 670vh;
   }
   .RestaurantSection {
-    height: 190vh;
+    height: 192vh;
+    /* background-color: yellow; */
+  }
+}
+
+@media (max-width: 800px) {
+  .LandingPage {
+    height: 660vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .RestaurantSection {
+    height: 185vh;
+    /* flex-direction: column; */
     /* background-color: yellow; */
   }
 }
 
 @media (max-width: 600px) {
   .LandingPage {
-    height: 648vh;
+    height: 661vh;
     /* padding: 4rem; */
   }
 
   .RestaurantSection {
-    height: 190vh;
+    height: 178vh;
     /* flex-direction: column; */
     /* background-color: yellow; */
   }
@@ -81,7 +96,18 @@
 
 @media (max-width: 500px) {
   .LandingPage {
-    height: 652vh;
+    height: 667vh;
+    /* padding: 4rem; */
+  }
+
+  .RestaurantSection {
+    height: 186vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .LandingPage {
+    height: 681vh;
     /* padding: 4rem; */
   }
 
@@ -100,11 +126,13 @@
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /*                     MENU                         */
 .MenuSectionPage {
-  height: 60vh;
+  height: 65vh;
   display: flex;
   background-color: #080808;
   /* background-color: antiquewhite; */
   padding-left: 3rem;
+  padding-right: 3rem;
+  /* padding: 1rem; */
 }
 
 .MenuPageImage {
@@ -116,16 +144,84 @@
   flex: 1;
 }
 .MenuPageContent p {
-  padding: 1rem 3rem;
+  padding: 3rem 3rem;
+}
+
+@media (max-width: 880px) {
+  .MenuSectionPage {
+    /* background-color: #e3dde0; */
+  }
+  .MenuPageImage {
+    width: 55%;
+  }
+  .MenuPageContent p {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .MenuSectionPage {
+    /* background-color: #e3dde0; */
+  }
+  .MenuPageImage {
+    width: 35%;
+  }
+  .MenuPageContent p {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .MenuSectionPage {
+    /* background-color: #e3dde0; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .MenuPageImage {
+    width: 25%;
+  }
+  .MenuSectionPage {
+    /* background-color: #e3dde0; */
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////// */
 /*  /////////////////////////     SectionLast        ///////////////////// */
 .SectionLast {
-  clip-path: polygon(0 20vh, 100% 0, 100% 70vh, 0 100%);
+  clip-path: polygon(0 20vh, 100% 0, 100% 85vh, 0 100%);
   background-color: #e3dde0;
 
-  height: 70vh;
+  height: 85vh;
+}
+
+@media (max-width: 1000px) {
+  .SectionLast {
+    height: 95vh;
+    clip-path: polygon(0 20vh, 100% 0, 100% 95vh, 0 100%);
+
+    /* clip-path: polygon(0 15vh, 100% 0, 100% 70vh, 0 100%); */
+    /* height: 70vh; */
+    /* background-color: #b44f81; */
+  }
+}
+
+.Reservation {
+  /* padding: 10rem 1rem; */
+  padding-top: 8rem;
+  padding-left: 3rem;
+  /* margin: 15rem 3rem; */
+  /* background-color: #dd76a9; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Reservation button {
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -166,12 +262,17 @@
   }
 
   .RestTwo2 {
-    margin-top: 3rem;
-    height: 70vh;
+    margin-top: 6rem;
+    height: 63vh;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .RestOne {
+    width: 100%;
+    height: 58vh;
+    margin-top: 1rem;
+  }
   .RestTwo1 {
     height: 55vh;
   }
@@ -195,21 +296,16 @@
   line-height: 2;
 }
 
-@media (max-width: 1000px) {
-  .SectionLast {
-    clip-path: polygon(0 15vh, 100% 0, 100% 70vh, 0 100%);
-    /* height: 70vh; */
-    background-color: #b44f81;
-  }
+@media (max-width: 900px) {
   .WelcomeContent {
-    padding: 1rem 4rem;
+    padding: 1rem 5rem;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .SectionLast {
-    clip-path: polygon(0 10vh, 100% 0, 100% 70vh, 0 100%);
-    /* height: 70vh; */
+    clip-path: polygon(0 15vh, 100% 0, 100% 85vh, 0 100%);
+    height: 85vh;
     /* background-color: #b44f81; */
   }
   .WelcomeContent {
@@ -217,8 +313,72 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
+  .SectionLast {
+    clip-path: polygon(0 15vh, 100% 0, 100% 90vh, 0 100%);
+    height: 90vh;
+    /* background-color: #b44f81; */
+  }
+  .Reservation {
+    padding-left: 0;
+  }
+  .WelcomeContent {
+    padding: 1rem 3rem;
+    /* padding: 1rem; */
+    /* color: #b44f81; */
+  }
+}
+
+@media (max-width: 600px) {
+  .SectionLast {
+    clip-path: polygon(0 13vh, 100% 0, 100% 96vh, 0 100%);
+    height: 96vh;
+    /* background-color: #b44f81; */
+  }
   .WelcomeContent {
     padding: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .SectionLast {
+    clip-path: polygon(0 13vh, 100% 0, 100% 110vh, 0 100%);
+    height: 110vh;
+    /* background-color: #b44f81; */
+  }
+  .WelcomeContent {
+    padding: 1rem;
+  }
+}
+
+/* /////////////////////////////////////////////////////////// */
+.RestOne {
+  background-color: #e3dde0;
+}
+
+.RestOne p {
+  padding: 1rem 3rem;
+}
+.RestOne button {
+  margin-left: 3rem;
+}
+
+@media (max-width: 1100px) {
+  .RestOne p {
+    padding: 1rem 2rem;
+  }
+
+  .RestOne button {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .RestOne p {
+    padding: 1rem;
+  }
+
+  .RestOne button {
+    margin-left: 1rem;
   }
 }
