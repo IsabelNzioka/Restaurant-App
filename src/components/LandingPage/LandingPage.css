@@ -108,6 +108,7 @@
 @media (max-width: 450px) {
   .LandingPage {
     height: 681vh;
+    font-size: 0.8rem;
     /* padding: 4rem; */
   }
 
@@ -346,8 +347,18 @@
     height: 110vh;
     /* background-color: #b44f81; */
   }
+  .Welcome {
+    font-size: 2rem;
+    color: #b44f81;
+    /* background: #6e686b; */
+    /* text-align: center; */
+
+    padding-top: 1.5rem;
+  }
   .WelcomeContent {
-    padding: 1rem;
+    /* padding: 1rem 9rem; */
+    line-height: 1.6;
+    font-size: 0.8rem;
   }
 }
 
