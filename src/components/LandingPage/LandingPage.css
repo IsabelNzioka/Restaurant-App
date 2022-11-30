@@ -148,7 +148,8 @@
   width: 60%;
 }
 .MenuPageContent {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-color: #e3dde0;
   flex: 1;
 }
 .MenuPageContent p {
