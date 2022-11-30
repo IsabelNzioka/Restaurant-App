@@ -112,6 +112,10 @@
     /* padding: 4rem; */
   }
 
+  .LandingPage p {
+    line-height: 1.6;
+  }
+
   .RestaurantSection {
     height: 186vh;
   }
