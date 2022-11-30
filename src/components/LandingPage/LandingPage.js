@@ -35,9 +35,7 @@ const LandingPage = () => {
         <div className="Restaurant">
           <div className="One">
             <div className="OneOne">
-              <h2 className="RestaurantName">
-                La Belle <span>Restaurant</span>
-              </h2>
+              <h2 className="Welcome">La Belle</h2>
             </div>
             <div className="OneTwo">
               <p className="RestaurantDesc">
@@ -98,7 +96,7 @@ const LandingPage = () => {
           />
         </div>
         <div className="MenuPageContent">
-          <h2 className="Team">Happenings</h2>
+          <h2 className="Welcome">Happenings</h2>
           <p className="RestaurantDesc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             varius nisl nec purus luctus dictum. Cras dapibus metus eu lacinia
@@ -116,7 +114,7 @@ const LandingPage = () => {
             width="100%"
             height="100%"
           /> */}
-          <h2 className="Team">Team</h2>
+          <h2 className="Welcome">Team</h2>
           <p>
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -152,7 +150,7 @@ const LandingPage = () => {
 
       <div className="SectionLast">
         <div className="Reservation">
-          <h2 className="Team">Our Food Is Delicious</h2>
+          <h2 className="Welcome">Our Food Is Delicious</h2>
           <p className="WelcomeContent">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             varius nisl nec purus luctus dictum. Cras dapibus metus eu lacinia
