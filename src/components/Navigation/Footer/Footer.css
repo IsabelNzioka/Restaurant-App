@@ -15,7 +15,8 @@ hr {
 
 span {
   margin-left: 0.4rem;
-  color: brown;
+  /* color: brown; */
+  color: #b44f81;
 }
 .FooterIcon {
   font-size: 3rem;
@@ -28,7 +29,8 @@ span {
   font-size: 1.1rem;
   border-radius: 2px;
   outline: none;
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
+  border: 1px solid #b44f81;
 }
 
 .FooterContent {

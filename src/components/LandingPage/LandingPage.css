@@ -292,13 +292,20 @@
   }
 }
 
-.Welcome {
+.Welcome,
+.WelcomeRest {
   font-size: 2.4rem;
-  color: #b44f81;
+
   /* background: #6e686b; */
   text-align: center;
 
   padding-top: 2rem;
+}
+.Welcome {
+  color: #b44f81;
+}
+.WelcomeRest {
+  color: #444040;
 }
 .WelcomeContent {
   padding: 1rem 9rem;

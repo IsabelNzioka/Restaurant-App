@@ -12,5 +12,6 @@
 @media (max-width: 800px) {
   .NavigationItems {
     flex-direction: column;
+    /* margin-top: 3rem; */
   }
 }

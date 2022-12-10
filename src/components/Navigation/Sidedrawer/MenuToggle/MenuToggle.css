@@ -15,7 +15,8 @@
 .DrawerToggle div {
   width: 90%;
   height: 3px;
-  background-color: rgb(143, 47, 47);
+  /* background-color: rgb(143, 47, 47); */
+  background-color: #b44f81;
 }
 
 @media (max-width: 800px) {
