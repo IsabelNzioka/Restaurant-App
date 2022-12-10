@@ -9,7 +9,8 @@
   z-index: 200;
 
   /* background-color: coral; */
-  background-color: #b44f81;
+  /* background-color: #b44f81; */
+  background-color: #201e1f;
   padding: 32px 16px;
   transition: transform 0.3s ease-out;
 
@@ -35,4 +36,24 @@ nav {
 
 .Close {
   transform: translateX(-100%);
+}
+
+.Location {
+  margin-top: 3.4rem;
+  font-size: 1rem;
+  color: white;
+  margin-left: 2rem;
+  /* background-color: aquamarine; */
+}
+
+.Socialss {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: aliceblue;
+  font-size: 2rem;
+  /* background-color: burlywood; */
+}
+.Socialss p {
+  margin-right: 1rem;
 }
