@@ -32,9 +32,7 @@ const SideDrawer = (props) => {
         <hr />
 
         <div className="Location">
-          <p>
-            <FaMapMarkerAlt /> karen bay shore, Nairobi, Kenya
-          </p>
+          <p>Bay shore, Nairobi, Kenya</p>
           <p>
             <FaPhoneAlt /> +254746282937
           </p>
@@ -45,20 +43,17 @@ const SideDrawer = (props) => {
         <div className="Socialss">
           <p>
             {" "}
+            <FaFacebook />
+          </p>
+          <p>
+            {" "}
             <FaInstagram />
           </p>
           <p>
             {" "}
             <FaTwitter />
           </p>
-          <p>
-            {" "}
-            <FaFacebook />
-          </p>
-          <p>
-            {" "}
-            <FaFacebook />
-          </p>
+
           <p>
             {" "}
             <FaFacebook />

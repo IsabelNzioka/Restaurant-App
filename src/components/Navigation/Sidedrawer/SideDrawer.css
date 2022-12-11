@@ -6,7 +6,7 @@
   left: 0;
   top: 0;
 
-  z-index: 200;
+  z-index: 300;
 
   /* background-color: coral; */
   /* background-color: #b44f81; */
@@ -48,10 +48,12 @@ nav {
 
 .Socialss {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-left: 2rem;
   color: aliceblue;
   font-size: 2rem;
+  /* background-color: rgb(110, 122, 133); */
+
   /* background-color: burlywood; */
 }
 .Socialss p {
