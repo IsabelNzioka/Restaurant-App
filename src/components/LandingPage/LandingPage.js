@@ -16,7 +16,7 @@ import "../Home/Home.css";
 const LandingPage = () => {
   return (
     <div className="LandingPage">
-      <div className="SectionOne">Hello</div>
+      <div className="SectionOne"></div>
       <div className="HomeContent">
         {/* <h2 className="Icon"></h2> */}
         {/* <FaYelp className="Iconn" /> */}

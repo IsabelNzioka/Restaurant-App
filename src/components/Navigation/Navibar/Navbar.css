@@ -28,7 +28,9 @@
 
 .Navbar nav {
   height: 100%;
+  margin-top: -0.1rem;
   margin-right: 2rem; /* problem */
+  /* background-color: rgb(111, 121, 129); */
 }
 
 @media (max-width: 800px) {
