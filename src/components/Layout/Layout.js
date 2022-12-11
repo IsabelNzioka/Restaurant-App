@@ -7,10 +7,10 @@ import Footer from "../Navigation/Footer/Footer";
 import "./Layout.css";
 
 const Layout = (props) => {
-  const [showDrawer, setShowDrawer] = useState(true);
+  const [showDrawer, setShowDrawer] = useState(false);
 
   const closeSideDrawer = () => {
-    setShowDrawer(false);
+    setShowDrawer(true);
   };
 
   const sideDrawerToggleHandler = () => {
