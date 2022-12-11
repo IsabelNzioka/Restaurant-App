@@ -24,3 +24,10 @@
     display: flex;
   }
 }
+
+@media (max-width: 500px) {
+  .DrawerToggle div {
+    width: 85%;
+    height: 1.4px;
+  }
+}
