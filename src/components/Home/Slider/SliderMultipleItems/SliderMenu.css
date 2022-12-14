@@ -1,0 +1,14 @@
+.MenuSlides {
+  height: 60vh;
+  width: 100%;
+  /* background-color: aliceblue; */
+}
+.MenuSlides img {
+  height: 100%;
+  width: 90%;
+  margin-left: 1rem;
+}
+
+.SlideImage {
+  height: 50vh;
+}

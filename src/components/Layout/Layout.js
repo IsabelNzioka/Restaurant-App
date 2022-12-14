@@ -10,7 +10,7 @@ const Layout = (props) => {
   const [showDrawer, setShowDrawer] = useState(false);
 
   const closeSideDrawer = () => {
-    setShowDrawer(true);
+    setShowDrawer(false);
   };
 
   const sideDrawerToggleHandler = () => {

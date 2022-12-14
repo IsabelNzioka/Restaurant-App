@@ -1,5 +1,5 @@
 .Menu {
-  height: 300vh;
+  height: 420vh;
   background-color: aliceblue;
   font-size: 0.8rem;
 }
@@ -14,12 +14,24 @@
   background-size: cover;
 }
 
+.MenuContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #444040; */
+  /* background-color: #b44f81; */
+}
+.MenuMenu {
+  background-color: #b44f81;
+}
+
 .Paragraph {
-  padding: 4rem 8rem;
+  padding: 1rem 8rem;
+  /* background-color: #3d3b3c; */
 }
 
 .MenuTitle {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #3d3b3c;
 }
 .Menus {
@@ -34,7 +46,8 @@
   gap: 3rem;
 }
 .Lunch {
-  background-color: crimson;
+  /* background-color: crimson; */
+  /* background-color: #b44f81; */
 }
 .Breakfast {
   background-color: chocolate;
@@ -42,4 +55,11 @@
 
 .Diner {
   background-color: #3d3b3c;
+}
+
+/* ////////////////////////////////////////// */
+.MenuImages {
+  /* background-color: #f34fa1; */
+  height: 60vh;
+  padding: 4rem;
 }

@@ -8,13 +8,11 @@ const NavigationItems = () => {
   return (
     <div>
       <ul className="NavigationItems">
-        <NavigationItem link="/" active>
-          Home
-        </NavigationItem>
-        <NavigationItem link="/">Specials</NavigationItem>
+        {/* <NavigationItem link="/">Home</NavigationItem> */}
+        <NavigationItem link="/menu">Specials</NavigationItem>
         <NavigationItem link="/gallery">Gallery</NavigationItem>
         <NavigationItem link="/menu">Menu</NavigationItem>
-        <NavigationItem link="/">Order</NavigationItem>
+        <NavigationItem link="/menu">Order</NavigationItem>
       </ul>
     </div>
   );
