@@ -22,7 +22,9 @@
   /* background-color: #b44f81; */
 }
 .MenuMenu {
+  margin-top: -20vh;
   background-color: #b44f81;
+  padding: 15rem 4rem 4rem 5rem;
 }
 
 .Paragraph {
@@ -31,6 +33,7 @@
 }
 
 .MenuTitle {
+  text-align: center;
   font-size: 3rem;
   color: #3d3b3c;
 }

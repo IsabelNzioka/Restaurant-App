@@ -1,5 +1,6 @@
 import React from "react";
-import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
+import { Routes, Route, useNavigate, Navigate, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Menu.css";
 
 import food from "../../assets/img/food/food1.jpg";
@@ -38,7 +39,7 @@ const Menu = () => {
   };
 
   const lunchHandler = () => {
-    navigate("/menu/lunch");
+    navigate("/menu/#lunch");
   };
 
   const dinnerHandler = () => {
@@ -47,7 +48,7 @@ const Menu = () => {
 
   let routes = (
     <Routes>
-      <Route path="/lunch" element={<Lunch />} />
+      <Route path="/#lunch" element={<Lunch />} />
       <Route path="/dinner" element={<Diner />} />
       <Route path="/breakfast" element={<Breakfast />} />
     </Routes>
@@ -59,7 +60,7 @@ const Menu = () => {
         {/* <img src={food} alt="MenuImage" width="100%" height="100%" /> */}
       </div>
 
-      <div className="MenuContent">
+      <div className="HomeContent">
         <h1 className="MenuTitle">Menu</h1>
         <div className="Paragraph">
           <p>
@@ -83,15 +84,10 @@ const Menu = () => {
       </svg> */}
       <div className="MenuMenu">
         <div className="Menus">
-          <button className="ButtonMenu" onClick={drinksHandler}>
-            Breakfast
-          </button>
-          <button className="ButtonMenu" onClick={lunchHandler}>
-            Lunch
-          </button>
-          <button className="ButtonMenu" onClick={dinnerHandler}>
-            Diner
-          </button>
+          <HashLink to="/menu/#lunch">Lunch</HashLink>
+          <button className="ButtonMenu">Breakfast</button>
+          <button className="ButtonMenu">Lunch</button>
+          <button className="ButtonMenu">Diner</button>
           {/* <button className="ButtonMenu">All Menu</button>
           <button className="ButtonMenu">All Menu</button> */}
         </div>
