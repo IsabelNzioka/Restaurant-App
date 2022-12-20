@@ -1,13 +1,13 @@
 .Menu {
-  height: 420vh;
-  background-color: aliceblue;
-  font-size: 0.8rem;
+  height: auto;
+
+  font-size: 1rem;
 }
 
 .MenuMain {
   height: 70vh;
   width: 100%;
-  /* background-image: url("../../assets/img/rest9.jpg"); */
+
   background-image: url("../../assets/img/food/food3.jpg");
 
   background-position: center;
@@ -18,18 +18,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #444040; */
-  /* background-color: #b44f81; */
+  padding: 4rem 8rem 10rem;
 }
+
 .MenuMenu {
-  margin-top: -20vh;
-  background-color: #b44f81;
-  padding: 15rem 4rem 4rem 5rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(209, 194, 201, 0.8),
+      rgba(61, 59, 60, 0.8)
+    ),
+    url("../../assets/img/food/food5.jpg");
+  background-size: cover;
+
+  padding: 10rem 4rem;
+  height: auto;
+  transform: skewY(-6deg);
+}
+
+.MenuMenu > * {
+  transform: skewY(6deg);
 }
 
 .Paragraph {
-  padding: 1rem 8rem;
-  /* background-color: #3d3b3c; */
 }
 
 .MenuTitle {
@@ -38,10 +48,26 @@
   color: #3d3b3c;
 }
 .Menus {
-  padding: 1rem 6rem;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.Menus a {
+  text-decoration: none;
+  background-color: #b44f81;
+  padding: 1rem 2.5rem;
+  border-radius: 2px;
+  color: inherit;
+}
+.MenuItems {
+  background-color: aliceblue;
+
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 .OurMenu {
-  padding: 2rem 8rem;
+  padding: 1rem 2rem;
 }
 .Lunch,
 .Breakfast {
@@ -49,20 +75,73 @@
   gap: 3rem;
 }
 .Lunch {
-  /* background-color: crimson; */
-  /* background-color: #b44f81; */
 }
 .Breakfast {
-  background-color: chocolate;
 }
 
 .Diner {
-  background-color: #3d3b3c;
 }
 
 /* ////////////////////////////////////////// */
 .MenuImages {
-  /* background-color: #f34fa1; */
-  height: 60vh;
-  padding: 4rem;
+  /* height: 60vh; */
+  margin-top: -6rem;
+  /* background-color: #b44f81; */
+  padding: 16rem 4rem 4rem;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  .MenuContent {
+    padding: 3rem 6rem 9rem;
+  }
+  .MenuImages {
+    padding: 15rem 4rem 4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .MenuContent {
+    padding: 3rem 4rem 8rem;
+  }
+  .MenuMenu {
+    padding: 9rem 4rem;
+  }
+  .MenuImages {
+    padding: 14rem 4rem 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .MenuContent {
+    padding: 3rem 2rem 7rem;
+  }
+  .MenuMenu {
+    padding: 8rem 2rem;
+  }
+  .MenuImages {
+    padding: 14rem 2rem 3rem;
+  }
+
+  .Menus a {
+    padding: 1rem 2.1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .MenuMenu {
+    padding: 6rem 2rem;
+  }
+  .Menus a {
+    padding: 1rem 0.9rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .MenuImages {
+    padding: 13rem 2rem 3rem;
+  }
+  .MenuContent {
+    padding: 2rem 2rem 5rem;
+  }
 }

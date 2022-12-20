@@ -39,7 +39,7 @@ const Menu = () => {
   };
 
   const lunchHandler = () => {
-    navigate("/menu/#lunch");
+    navigate("/menu/lunch");
   };
 
   const dinnerHandler = () => {
@@ -48,7 +48,8 @@ const Menu = () => {
 
   let routes = (
     <Routes>
-      <Route path="/#lunch" element={<Lunch />} />
+      <Route index element={<Lunch />} />
+      <Route path="/lunch" element={<Lunch />} />
       <Route path="/dinner" element={<Diner />} />
       <Route path="/breakfast" element={<Breakfast />} />
     </Routes>
@@ -60,7 +61,7 @@ const Menu = () => {
         {/* <img src={food} alt="MenuImage" width="100%" height="100%" /> */}
       </div>
 
-      <div className="HomeContent">
+      <div className="MenuContent">
         <h1 className="MenuTitle">Menu</h1>
         <div className="Paragraph">
           <p>
@@ -83,15 +84,23 @@ const Menu = () => {
         ></use>
       </svg> */}
       <div className="MenuMenu">
-        <div className="Menus">
-          <HashLink to="/menu/#lunch">Lunch</HashLink>
-          <button className="ButtonMenu">Breakfast</button>
-          <button className="ButtonMenu">Lunch</button>
-          <button className="ButtonMenu">Diner</button>
-          {/* <button className="ButtonMenu">All Menu</button>
+        <div className="MenuItems">
+          <div className="Menus">
+            <Link to="/menu/lunch">Lunch</Link>
+            <Link to="/menu/dinner">Diner</Link>
+            <Link to="/menu/breakfast">Breakfast</Link>
+            <Link to="/menu/dinner">Sides</Link>
+            <Link to="/menu/breakfast">Drinks</Link>
+
+            {/* <HashLink to="/menu/#lunch">Lunch</HashLink> */}
+            {/* <button className="ButtonMenu">Breakfast</button>
+            <button className="ButtonMenu">Lunch</button>
+            <button className="ButtonMenu">Diner</button> */}
+            {/* <button className="ButtonMenu">All Menu</button>
           <button className="ButtonMenu">All Menu</button> */}
+          </div>
+          <div className="OurMenu">{routes}</div>
         </div>
-        <div className="OurMenu">{routes}</div>
       </div>
 
       <div className="MenuImages">
