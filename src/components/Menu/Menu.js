@@ -1,5 +1,13 @@
 import React from "react";
-import { Routes, Route, useNavigate, Navigate, Link } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  useNavigate,
+  Navigate,
+  Link,
+  NavLink,
+  Outlet,
+} from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./Menu.css";
 
@@ -49,6 +57,7 @@ const Menu = () => {
   let routes = (
     <Routes>
       <Route index element={<Lunch />} />
+      {/* <Route path="/" element={<Lunch />} /> */}
       <Route path="/lunch" element={<Lunch />} />
       <Route path="/dinner" element={<Diner />} />
       <Route path="/breakfast" element={<Breakfast />} />
@@ -86,11 +95,36 @@ const Menu = () => {
       <div className="MenuMenu">
         <div className="MenuItems">
           <div className="Menus">
-            <Link to="/menu/lunch">Lunch</Link>
-            <Link to="/menu/dinner">Diner</Link>
-            <Link to="/menu/breakfast">Breakfast</Link>
-            <Link to="/menu/dinner">Sides</Link>
-            <Link to="/menu/breakfast">Drinks</Link>
+            <NavLink
+              to="/menu/lunch"
+              className={({ isActive }) => (isActive ? "active" : undefined)}
+            >
+              Lunch
+            </NavLink>
+            <NavLink
+              to="/menu/dinner"
+              className={({ isActive }) => (isActive ? "active" : undefined)}
+            >
+              Diner
+            </NavLink>
+            <NavLink
+              to="/menu/breakfast"
+              className={({ isActive }) => (isActive ? "active" : undefined)}
+            >
+              Breakfast
+            </NavLink>
+            <NavLink
+              to="/menu/dinner"
+              className={({ isActive }) => (isActive ? "active" : undefined)}
+            >
+              Sides
+            </NavLink>
+            <NavLink
+              to="/menu/breakfast"
+              className={({ isActive }) => (isActive ? "active" : undefined)}
+            >
+              Drinks
+            </NavLink>
 
             {/* <HashLink to="/menu/#lunch">Lunch</HashLink> */}
             {/* <button className="ButtonMenu">Breakfast</button>
