@@ -1,5 +1,5 @@
 .LandingPage {
-  height: 600vh;
+  height: auto;
   /* background-color: coral; */
   font-size: 1rem;
 }
@@ -39,15 +39,15 @@
 }
 
 @media (max-width: 1000px) {
-  .LandingPage {
+  /* .LandingPage {
     height: 605vh;
-  }
+  } */
 }
 
 @media (max-width: 900px) {
-  .LandingPage {
+  /* .LandingPage {
     height: 607vh;
-  }
+  } */
 
   .RestaurantSection {
     height: 142vh;
@@ -55,9 +55,9 @@
   }
 }
 @media (max-width: 880px) {
-  .LandingPage {
+  /* .LandingPage {
     height: 674vh;
-  }
+  } */
   .RestaurantSection {
     height: 192vh;
     /* background-color: yellow; */
@@ -65,15 +65,15 @@
 }
 
 @media (max-width: 800px) {
-  .LandingPage {
+  /* .LandingPage {
     height: 664vh;
-  }
+  } */
 }
 
 @media (max-width: 700px) {
-  .LandingPage {
+  /* .LandingPage {
     height: 662vh;
-  }
+  } */
   .RestaurantSection {
     height: 185vh;
     /* flex-direction: column; */
@@ -82,10 +82,10 @@
 }
 
 @media (max-width: 600px) {
-  .LandingPage {
+  /* .LandingPage {
     height: 654vh;
-    /* padding: 4rem; */
-  }
+    
+  } */
 
   .RestaurantSection {
     height: 178vh;
@@ -100,10 +100,10 @@
 }
 
 @media (max-width: 500px) {
-  .LandingPage {
+  /* .LandingPage {
     height: 667vh;
-    /* padding: 4rem; */
-  }
+   
+  } */
 
   .RestaurantSection {
     height: 186vh;
@@ -112,7 +112,7 @@
 
 @media (max-width: 450px) {
   .LandingPage {
-    height: 643vh;
+    /* height: 643vh; */
     font-size: 0.8rem;
     /* padding: 4rem; */
   }
@@ -127,10 +127,10 @@
 }
 
 @media (max-width: 360px) {
-  .LandingPage {
-    height: 643vh;
-    /* padding: 4rem; */
-  }
+  /* .LandingPage { */
+  /* height: 643vh;
+ 
+  } */
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
