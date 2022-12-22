@@ -48,9 +48,14 @@
   color: #3d3b3c;
 }
 .Menus {
-  display: flex;
-
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* gap: 0.5rem; */
+  gap: 1px;
+  text-align: center;
+  /* border: 1px dashed black; */
+  /* align-items: center; */
+  /* border-bottom: 2px solid black; */
 }
 /* .MenuLinks {
   background-color: aqua;
@@ -59,7 +64,8 @@
 .Menus a {
   text-decoration: none;
   background-color: #b44f81;
-  padding: 1rem 4rem;
+
+  padding: 1rem;
 
   border-radius: 2px;
   color: inherit;
@@ -67,13 +73,14 @@
 .Menus a:hover,
 .Menus a:active,
 .Menus a.active {
-  background-color: darkgoldenrod;
-  border-bottom: 2px solid #d3b590;
-  color: white;
+  background-color: #e8c4c4;
+  border: 2px solid #080500;
+  /* color: white; */
 }
 
 .MenuItems {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  background-color: #e8c4c4;
 
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -105,7 +112,7 @@
 
 @media (max-width: 1100px) {
   .Menus a {
-    padding: 1rem 3rem;
+    /* padding: 1rem 3rem; */
   }
 }
 
@@ -120,7 +127,7 @@
 
 @media (max-width: 900px) {
   .Menus a {
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
   }
   .MenuContent {
     padding: 3rem 4rem 8rem;
@@ -145,7 +152,7 @@
   }
 
   .Menus a {
-    padding: 1rem 2.1rem;
+    /* padding: 1rem 2.1rem; */
   }
 }
 
@@ -154,12 +161,12 @@
     padding: 6rem 2rem;
   }
   .Menus a {
-    padding: 1rem 1.7rem;
+    /* padding: 1rem 1.7rem; */
   }
 }
 @media (max-width: 600px) {
   .Menus a {
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
   }
 
   .Lunch,
@@ -184,8 +191,8 @@
   }
 
   .Menus {
-    flex-direction: column;
+    /* flex-direction: column;
     gap: 0.5rem;
-    text-align: center;
+    text-align: center; */
   }
 }

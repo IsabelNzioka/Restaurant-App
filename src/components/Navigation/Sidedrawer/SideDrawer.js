@@ -24,7 +24,7 @@ const SideDrawer = (props) => {
   return (
     <div>
       <Backdrop show={props.open} clicked={props.closed} />
-      <div className={attachedClasses.join(" ")}>
+      <div className={attachedClasses.join(" ")} onClick={props.closed}>
         {/* <h3 className="Logo">Logo</h3> */}
         <nav>
           <NavigationItems />

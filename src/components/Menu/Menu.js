@@ -7,6 +7,9 @@ import {
   Link,
   NavLink,
   Outlet,
+  useLocation,
+  matchRoutes,
+  useRoutes,
 } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./Menu.css";
@@ -24,6 +27,8 @@ import drink4 from "../../assets/img/food/drink4.jpg";
 import Lunch from "./Menus/Lunch";
 import Diner from "./Menus/Dinner";
 import Breakfast from "./Menus/Breakfast";
+import Drinks from "./Menus/Drinks";
+import Sides from "./Menus/Sides";
 
 import SliderMenu from "../Home/Slider/SliderMultipleItems/SliderMenu";
 
@@ -54,15 +59,28 @@ const Menu = () => {
     navigate("/menu/dinner");
   };
 
-  let routes = (
-    <Routes>
-      <Route index element={<Lunch />} />
-      {/* <Route path="/" element={<Lunch />} /> */}
-      <Route path="/lunch" element={<Lunch />} />
-      <Route path="/dinner" element={<Diner />} />
-      <Route path="/breakfast" element={<Breakfast />} />
-    </Routes>
-  );
+  // let routes = (
+  //   <Routes>
+  //     <Route index element={<Lunch />} />
+
+  //     <Route path="/lunch" element={<Lunch />} />
+  //     <Route path="/dinner" element={<Diner />} />
+  //     <Route path="/breakfast" element={<Breakfast />} />
+  //   </Routes>
+  // );
+
+  let routes = [
+    { path: "/", element: <Lunch /> },
+    { path: "/lunch", element: <Lunch /> },
+    { path: "/dinner", element: <Diner /> },
+    { path: "/breakfast", element: <Breakfast /> },
+    { path: "/sides", element: <Sides /> },
+    { path: "/drinks", element: <Drinks /> },
+  ];
+
+  let location = useLocation();
+  // console.log("llllllllllllllllllllll", location.pathname);
+  let element = useRoutes(routes);
 
   return (
     <div className="Menu">
@@ -97,7 +115,9 @@ const Menu = () => {
           <div className="Menus">
             <NavLink
               to="/menu/lunch"
-              className={({ isActive }) => (isActive ? "active" : undefined)}
+              className={({ isActive }) =>
+                isActive || location.pathname === "/menu" ? "active" : undefined
+              }
             >
               Lunch
             </NavLink>
@@ -113,14 +133,15 @@ const Menu = () => {
             >
               Breakfast
             </NavLink>
+
             <NavLink
-              to="/menu/dinner"
+              to="/menu/sides"
               className={({ isActive }) => (isActive ? "active" : undefined)}
             >
               Sides
             </NavLink>
             <NavLink
-              to="/menu/breakfast"
+              to="/menu/drinks"
               className={({ isActive }) => (isActive ? "active" : undefined)}
             >
               Drinks
@@ -133,7 +154,7 @@ const Menu = () => {
             {/* <button className="ButtonMenu">All Menu</button>
           <button className="ButtonMenu">All Menu</button> */}
           </div>
-          <div className="OurMenu">{routes}</div>
+          <div className="OurMenu">{element}</div>
         </div>
       </div>
 
