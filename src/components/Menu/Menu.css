@@ -2,6 +2,7 @@
   height: auto;
 
   font-size: 1rem;
+  background-color: #e3dde0;
 }
 
 .MenuMain {
@@ -24,8 +25,8 @@
 .MenuMenu {
   background-image: linear-gradient(
       to right bottom,
-      rgba(209, 194, 201, 0.8),
-      rgba(61, 59, 60, 0.8)
+      rgba(209, 194, 201, 0.4),
+      rgba(61, 59, 60, 0.5)
     ),
     url("../../assets/img/food/food5.jpg");
   background-size: cover;
@@ -73,14 +74,16 @@
 .Menus a:hover,
 .Menus a:active,
 .Menus a.active {
-  background-color: #e8c4c4;
+  /* background-color: #e8c4c4; */
+  background-color: #e3dde0;
   border: 2px solid #080500;
   /* color: white; */
 }
 
 .MenuItems {
   /* background-color: aliceblue; */
-  background-color: #e8c4c4;
+  /* background-color: #e8c4c4; */
+  background-color: #e3dde0;
 
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;

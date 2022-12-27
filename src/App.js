@@ -11,6 +11,7 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Lunch from "./components/Menu/Menus/Lunch";
 import Diner from "./components/Menu/Menus/Dinner";
 import Breakfast from "./components/Menu/Menus/Breakfast";
+import Contact from "./components/Contact/Contact";
 
 import "./App.css";
 
@@ -20,7 +21,7 @@ const App = () => {
       {/* <Route path="/" element={<Home />} /> */}
       <Route path="/" element={<LandingPage />} />
       <Route path="/gallery" element={<Gallery />} />
-      {/* <Route path="/menu" element={<Menu />} /> */}
+      <Route path="/contact" element={<Contact />} />
 
       <Route path="/menu/*" element={<Menu />} />
     </Routes>
